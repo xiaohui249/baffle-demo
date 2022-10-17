@@ -1,0 +1,5 @@
+baffle:
+  invoice:
+    checkfp:
+      enable: true
+      classname: com.example.baffledemo.service.baffleimpl.BaffleInvoiceServiceImpl
