@@ -3,3 +3,9 @@ baffle:
     checkfp:
       enable: true
       classname: com.example.baffledemo.service.baffleimpl.BaffleInvoiceServiceImpl
+  bank:
+    enable: true
+    classname: baffleBankServiceImpl
+    method:
+      load-result-ids: JTBANK,CCB
+      repay-result-ids: BCS,ABC
